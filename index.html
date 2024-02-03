@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hamburger button</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+
+    <div class="icon-container" onclick="toggleIcon()">
+        <div class="icon"></div>
+        <div class="icon middle"></div>
+        <div class="icon"></div>
+    </div>
+
+    <script>
+        function toggleIcon() {
+            const iconContainer = document.querySelector('.icon-container');
+            iconContainer.classList.toggle('close');
+        }
+    </script>
+
+</body>
+
+</html>
